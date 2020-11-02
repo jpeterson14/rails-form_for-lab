@@ -1,0 +1,6 @@
+<h1> Edit a  class </h1>
+<%= form_for @school_class, method: :patch do |f| %>
+    Title: <%= f.text_field :title %> <br>
+    Room Number: <%= f.text_field :room_number %> <br>
+    <%= f.submit %>
+<% end %>
